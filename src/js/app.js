@@ -3,7 +3,7 @@ export default class Validator {
     if (!name) {
       return false;
     } else {
-      return /^[\w\-]*$/.test(name) && !/\d{4}|^[\d_\-]|[\d_\-]$/.test(name);
+      return /^[\w-]*$/.test(name) && !/\d{4}|^[\d_-]|[\d_-]$/.test(name);
     }
   }
 }
